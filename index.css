@@ -3,6 +3,7 @@
 body {
     background-color: gainsboro;
     font-family: "Montserrat", sans-serif;
+    margin: 0;
 }
 header {
     position: relative;
@@ -13,6 +14,7 @@ header {
     height: 300px;
     text-shadow: 2px 2px 4px #000000;
     filter: drop-shadow(0px 5px 5px #888888);
+    margin: 0;
 }
 #header-content {
     position: absolute;
@@ -30,12 +32,22 @@ header {
     border-radius: 50%;
     filter: drop-shadow(0px 5px 5px black);
 }
+
 main {
-    padding: 10px 50px 50px;
+    padding: 10px 10% 5%;
     border-radius: 5px;
     background-color: #ffffff;
-    margin-top: 20px;
+    margin: 20px 10%;
     filter: drop-shadow(0px 5px 5px #888888);
+}
+
+#blog-photo-container {  /* allows image to be cropped */
+    height: 300px;
+    overflow: hidden;
+}
+#blog-photo {
+    height: 300px;
+
 }
 
 #intro {
